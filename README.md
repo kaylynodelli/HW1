@@ -8,3 +8,5 @@ Practice creating a basic GitHub page
 "Be yourself; everyone else is already taken." - Oscar Wilde
 
 [References](cartoons.html)
+
+[New User](newuser.html)
