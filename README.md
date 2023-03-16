@@ -6,3 +6,5 @@ Practice creating a basic GitHub page
 "And I’d give anything to go back in time to listen to his stories and take some advice." – Colten Jesse
 
 "Be yourself; everyone else is already taken." - Oscar Wilde
+
+[References](cartoon.html)
