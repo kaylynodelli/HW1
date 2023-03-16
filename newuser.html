@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>Forms...(for HW)</title>
+    </head>
+    <h1>
+        New User:
+    </h1>
+    <form id = "form1">
+        <legend>
+            <label>First Name:</label>
+            <input 
+            id="firstName"
+            name = "First Name" 
+            minlength="1"
+            maxlength="32"
+            type="text"
+            placeholder = "John"
+            required
+            />
+        </legend>
+       <br>
+        <legend>
+            <label>Last Name:</label>
+            <input
+            id="lastName"
+             name = "Last Name"
+            minlength="1"
+            maxlength="32"
+            type="text"
+            placeholder="Doe"
+            required
+            />
+        </legend>
+        
+        <br>
+        <legend>
+            <label>Password:</label>
+            <input name="Password" id="password" type="password" placeholder="password" required />
+        </legend>
+        <br>
+        <legend>
+            <label>Email:</label>
+            <input name="Email" id="email" type="email" placeholder="example@email.com" required/>
+        </legend>
+        <br>
+        <legend>
+            <label>Telephone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="724-867-5309"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+        </legend>
+        <br>
+        <legend>
+            <label>Home Page (URL):</label>
+            <input name="url" id="url" placeholder="link.com" type="url">
+        </legend>
+        <br>
+        <legend>
+            <label>Birth Month:</label>
+            <input name="month" id="month" type="month" placeholder="01">
+        </legend>
+        <br>
+        <legend>
+            <label>Birth Year:</label>
+            <input name="year" id="year" type="year" placeholder="2000">
+        </legend>
+        
+        <br>
+        <legend>
+            <label>Can we email you?</label>
+            <input name="check" id="check" type="checkbox">
+        </legend>
+        
+        <br>
+        <fieldset>
+            <legend>
+                <label>Can we text you?</label>
+            </legend>
+            <label>Yes</label>
+            <input type="radio" id="yes" name="text" value="yes">
+            <label>No</label>
+            <input type="radio" id="no" name="text" value="no">
+        </fieldset>
+        
+        
+        <br>
+        <fieldset>
+            <legend>Do you like our product?</legend>
+            <input type="radio" id="5" name="likeness" value="5">
+            <label for="5 - love it!"> 5 - love it1!</label>
+            <br>
+            <input type="radio" id="4" name="likeness" value="4">
+            <label for="4 - like it"> 4 - like it1</label>
+            <br>
+            <input type="radio" id="3" name="likeness" value="3">
+            <label for="3 - it's okay"> 3 - it's okay.</label>
+            <br>
+            <input type="radio" id="2" name="likeness" value="2">
+            <label for="2 - not a fan"> 2 - not a fan :(</label>
+            <br>
+            <input type="radio" id="1" name="likeness" value="1">
+            <label for="1 - hate it!"> 1 - hate it!</label>
+
+        </fieldset>
+        
+        <input id="clear" type="reset"/>
+        
+        
+        <input type="submit"/>
+
+    </form>
+</html>
+
