@@ -7,4 +7,4 @@ Practice creating a basic GitHub page
 
 "Be yourself; everyone else is already taken." - Oscar Wilde
 
-[References](cartoon.html)
+[References](cartoons.html)
